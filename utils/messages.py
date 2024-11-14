@@ -1,5 +1,3 @@
-utils/messages.py
-
 def welcome_message():
   print("가위바위보 게임에 오신 것을 환영합니다!")
 
