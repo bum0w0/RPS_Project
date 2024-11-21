@@ -1,5 +1,5 @@
 def welcome_message():
-  print("°¡À§¹ÙÀ§º¸ °ÔÀÓ¿¡ ¿À½Å °ÍÀ» È¯¿µÇÕ´Ï´Ù!")
+  print("ê°€ìœ„ë°”ìœ„ë³´ ê²Œì„ì— ì˜¤ì‹  ê²ƒì„ í™˜ì˜í•©ë‹ˆë‹¤!")
 
 def result_message(result):
-  print(f"°á°ú: {result}")
+  print(f"ê²°ê³¼: {result}")
