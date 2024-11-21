@@ -12,6 +12,7 @@ def play_game():
         print("게임을 종료합니다.")
         sys.exit()  # 프로그램 종료
 
+
     if user_choice is None:
         # 5초 이내에 입력을 받지 못한 경우
         result_message("시간 초과! 컴퓨터 승리 (안내면 진다!)")
@@ -25,6 +26,6 @@ def play_game():
     elif (user_choice == '가위' and computer_choice == '보') or \
          (user_choice == '바위' and computer_choice == '가위') or \
          (user_choice == '보' and computer_choice == '바위'):
-        result_message("사용자 승리")
+        result_message("사용자 승리!!!!!!!")
     else:
-        result_message("컴퓨터 승리")
+        result_message("컴퓨터 승리!!!!!!!")
