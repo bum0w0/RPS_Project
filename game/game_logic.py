@@ -14,6 +14,6 @@ def play_game():
   elif (user_choice == '가위' and computer_choice == '보') or \
      (user_choice == '바위' and computer_choice == '가위') or \
      (user_choice == '보' and computer_choice == '바위'):
-    result_message("사용자 승리")
+    result_message("사용자 승리!!!!!!!")
   else:
-    result_message("컴퓨터 승리")
+    result_message("컴퓨터 승리!!!!!!!")
